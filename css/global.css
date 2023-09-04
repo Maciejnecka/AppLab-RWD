@@ -5,5 +5,139 @@ html {
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.btn {
+  border: none;
+  height: 3rem;
+  width: 10rem;
+  color: var(--main-white);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  background-color: var(--btn-bg-green);
+}
+
 :root {
+  /* Backgrounds */
+  --main-nav-color: #2c2c2c;
+  --btn-bg-green: #37ebed;
+
+  /* Fonts colors */
+  --main-white: #f8f8f8;
+}
+/* ////////////////////////////////////// */
+/* Hamburger */
+.nav__hamburger {
+  width: 3rem;
+  height: 2rem;
+  border: 0;
+  border-top: 0.25rem solid var(--main-white);
+  background: transparent;
+  position: relative;
+}
+
+.nav__hamburger::before,
+.nav__hamburger::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 0.25rem solid var(--main-white);
+  transform: translateY(0.75rem);
+}
+
+.nav__hamburger::after {
+  transform: translateY(1.75rem);
+}
+
+input {
+  display: none;
+  visibility: hidden;
+}
+/* ////////////////////////////////////// */
+/* Navbar  */
+.nav__ele-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-nav-color);
+  padding: 0 1rem;
+}
+
+.nav__logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: var(--main-white);
+}
+/* Links */
+.header__links-container {
+  display: none;
+  flex-direction: column;
+  background-color: var(--main-nav-color);
+}
+
+#menu-switcher:checked + .header__links-container {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+
+.header__list-ele a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--main-white);
+  letter-spacing: 0.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.links--icon {
+  height: 2rem;
+  filter: invert(96%) sepia(8%) saturate(199%) hue-rotate(240deg)
+    brightness(115%) contrast(95%);
+}
+/* ////////////////////////////////////// */
+/* Header  */
+.header__container {
+  background-image: url(/task-html-and-css-rwd/images/banner/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 50rem;
+}
+
+.header__list-container {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  color: var(--main-white);
+  letter-spacing: 0.1rem;
+}
+
+.header__heading {
+  font-size: 1.6rem;
+}
+
+.header__paragraph {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.btn--header {
+  margin: 2.5rem 0rem;
+  height: 3.5rem;
+  width: 12rem;
+}
+
+.header__img-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header__img {
+  height: 40rem;
 }
