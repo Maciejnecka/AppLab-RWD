@@ -134,7 +134,7 @@ input {
 /* ////////////////////////////////////// */
 /* Header  */
 .header__container {
-  background-image: url(/images/banner/banner.png);
+  background-image: url(../images/banner/banner.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -287,7 +287,7 @@ input {
 /* Revview article */
 .review__container {
   background: linear-gradient(to top, #6ab5fcd5, #6ab5fcd5),
-    url(/images/banner/testmonial.png) no-repeat top center;
+    url(../images/banner/testmonial.png) no-repeat top center;
   height: 35rem;
   width: 100%;
   display: flex;
