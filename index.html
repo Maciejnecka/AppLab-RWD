@@ -7,6 +7,7 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;800&display=swap');
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" media="(min-width: 600px)" href="./css/mobile.css" />
     <link rel="stylesheet" media="(min-width: 900px)" href="./css/tablet.css" />
@@ -18,7 +19,7 @@
 
     <link
       rel="stylesheet"
-      href="./node_modules/html5-reset/assets/css/reset.css"
+      href="./css/reset.css"
     />
   </head>
   <body>
@@ -26,11 +27,12 @@
       <!-- Navbar section -->
       <nav class="nav__container">
         <div class="nav__ele-container">
-          <h1 class="nav__logo">AppLab</h1>
+          <h1 class="nav__logo nav--desktop">AppLab</h1>
           <label for="menu-switcher"><div class="nav__hamburger"></div></label>
           <input type="checkbox" id="menu-switcher" />
           <!-- Menu links -->
           <ul class="header__links-container">
+          <h1 class="nav__logo nav--global">AppLab</h1>
             <li class="header__list-ele"><a href="#">Home</a></li>
             <li class="header__list-ele"><a href="#">Features</a></li>
             <li class="header__list-ele"><a href="#">Pricing</a></li>
@@ -52,6 +54,7 @@
             </li class="header__list-ele">
             <li class="header__list-ele"><a href="#">Contact</a></li>
           </ul>
+            <button class="btn btn--desktop">Download</button>
           <!-- End of menu links -->
         </div>
       </nav>
@@ -76,9 +79,181 @@
     <!-- End of navbar section -->
     <!-- Main Section -->
     <main>
-      <header></header>
-      <ul></ul>
+      <h1 class="main__header-h1">Save your time to using applab</h1>
+      <header class="main__container">
+        <!-- Single ele -->
+        <div class="main__ele-container">
+          <span class="main__header-svg-wrap">
+            <img class="main__header-svg" src="./images/icons/2.svg" alt="Manage team icon">
+          </span>
+          <p class="main__header-p">Manage team in One Place</p>
+        </div>
+        <!-- End of single ele -->
+                <!-- Single ele -->
+        <div class="main__ele-container">
+          <span class="main__header-svg-wrap wrap--orange">
+            <img class="main__header-svg" src="./images/icons/1.svg" alt="Leaf icon">
+          </span>
+          <p class="main__header-p">All-powerful Pointing has no control</p>
+        </div>
+        <!-- End of single ele -->
+                <!-- Single ele -->
+        <div class="main__ele-container">
+          <span class="main__header-svg-wrap wrap--green">
+            <img class="main__header-svg" src="./images/icons/3.svg" alt="Message icon">
+          </span>
+          <p class="main__header-p">Establish a solid online presence</p>
+        </div>
+        <!-- End of single ele -->
+      </header>
+      <!-- End of header ele -->
+      <!-- First article container -->
+        <article class="article">
+          <div class="article__up-container">
+            <h1 class="article__h1">Features that give you real feel</h1>
+            <p class="article__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolorum laudantium distinctio aliquam asperiores, earum sequi veniam expedita nostrum est minus accusantium soluta ipsa quod incidunt? Aspernatur minus aliquid quia!</p>
+            <button class="btn btn--blue">Download Now</button>
+          </div>
+            <div class="article__down-container">
+            <img class="article__img" src="./images/draw.png" alt="Drawning on phone image">
+          </div>
+        </article>
+        <!-- End of first article container -->
+        <!-- Review container -->
+<article class="review">
+  <ul class="review__container">
+    <li>
+      <h1 class="review__h1">Review from our regular users</h1>
+      <p class="review__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, architecto. Reprehenderit suscipit aut deserunt dolorem aliquid ducimus dolorum ex, quod natus voluptatem labore reiciendis rerum, ipsam, eligendi neque deleniti mollitia!</p>
+    </li>
+    <li class="review__stars-container">
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <a class="review__author" rel="author">- Robert Smile</a>      
+    </li>
+  </ul>
+</article>
+        <!-- End of review container -->
+        <!-- Price article -->
+<article class="price">
+  <header class="price__header">
+    <h1 class="price__h1">Unlock full power</h1>
+    <p class="price__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, debitis.</p>
+  </header>
+  <!-- Single price container -->
+  <ul class="price__single-table grid-a">
+<ul>
+  <li class="price__table-header">
+    <h1 class="price__table-h1">Basic</h1>
+    <h2 class="price__table-ammount">$06</h2>
+  </li>
+</ul>
+<ul class="price__li-container">
+  <li>One User</li>
+  <li>1000 ui elements</li>
+  <li>Webmail Support</li>
+  <li>100GB Cloud Storage</li>
+  <li><button class="btn btn--price">Get Now</button></li>
+</ul>
+  </ul>
+  <!-- End of single price container -->
+    <!-- Single price container -->
+  <ul class="price__single-table grid-b tablet--z-index">
+<ul>
+  <li class="price__table-header header--orange">
+    <h1 class="price__table-h1">Team</h1>
+    <h2 class="price__table-ammount">$06</h2>
+  </li>
+</ul>
+<ul class="price__li-container">
+  <li>One User</li>
+  <li>1000 ui elements</li>
+  <li>Webmail Support</li>
+  <li>100GB Cloud Storage</li>
+  <li>Unlimited Users Limit</li>
+  <li><button class="btn btn--price">Get Now</button></li>
+</ul>
+  </ul>
+  <!-- End of single price container -->
+    <!-- Single price container -->
+  <ul class="price__single-table grid-c">
+<ul>
+  <li class="price__table-header header--green">
+    <h1 class="price__table-h1">Buisness</h1>
+    <h2 class="price__table-ammount">$06</h2>
+  </li>
+</ul>
+<ul class="price__li-container">
+  <li>One User</li>
+  <li>1000 ui elements</li>
+  <li>Webmail Support</li>
+  <li>100GB Cloud Storage</li>
+  <li><button class="btn btn--price">Get Now</button></li>
+</ul>
+  </ul>
+  <!-- End of single price container -->
+</article>
+<!-- End of price article -->
+<!-- Apps section -->
+<section class="app">
+  <div class="app__container">
+    <h1 class="app_h1">Get start from now and increase productivity</h1>
+    <div class="app__img-container">
+      <a href="https://www.apple.com/pl/app-store/" target="_blank"><img  class="app__img-single" src="./images/app.svg" alt="App store img"></a>
+      <a href="https://play.google.com/store/games?hl=pl&gl=US" target="_blank"><img  class="app__img-single" src="./images/play.svg" alt="Google play app img"></a>
+    </div>
+  </div>
+</section>
+<!-- End of apps section -->
     </main>
     <!-- End of main section -->
+    <!-- Footer section -->
+    <footer class="footer">
+      <!-- Footer Header  -->
+<section class="footer__header logo--grid">
+  <h1 class="footer__logo">AppLab</h1>
+  <p class="footer__p">Firmament morning sixth subdue darkness creeping gathered divide.</p>
+  <div class="footer__icons">
+    <span class="footer__icon-wraper"><img class="footer__icon" src="./images/icons/facebook-f.svg" alt="facebook icon"></span>
+    <span class="footer__icon-wraper"><img class="footer__icon" src="./images/icons/twitter.svg" alt="twitter icon"></span>
+    <span class="footer__icon-wraper"><img class="footer__icon" src="./images/icons/instagram.svg" alt="instagram icon"></span>
+  </div>
+</section>
+<!-- Single footer section -->
+<ul class="footer__services services--grid">
+  <h1 class="footer__services-h1">Services</h1>
+  <li class="footer__li-item">Team management</li>
+  <li class="footer__li-item">Collaboration</li>
+  <li class="footer__li-item">Todo</li>
+  <li class="footer__li-item">Events</li>
+</ul>
+<!-- End of single footer section -->
+<!-- Single footer section -->
+<ul class="footer__services links--grid">
+  <h1 class="footer__services-h1">Useful Links</h1>
+  <li class="footer__li-item">Pricing</li>
+  <li class="footer__li-item">Features</li>
+  <li class="footer__li-item">Blog</li>
+  <li class="footer__li-item">Contact</li>
+</ul>
+<!-- End of single footer section -->
+<!-- Single footer section -->
+<ul class="footer__services downloads--grid">
+  <h1 class="footer__services-h1">Downloads</h1>
+  <li class="footer__li-item">Download from Apple Store</li>
+  <li class="footer__li-item">Download from Play Store</li>
+</ul>
+<!-- End of single footer section -->
+      <!-- End of footer Header  -->
+      <!-- Footer bottom section -->
+      <section class="footer__bottom footer--grid ">
+<p class="footer__bottom-p">Copyright &copy;2020 All rights reserver | This template is made with <img class="footer__bottom-svg" src="./images/icons/heart-regular.svg" alt="heart icon"> by <span class="footer__span">Colorlib</span></p>
+      </section>
+      <!-- End of footer bottom section -->
+    </footer>
+    <!-- End of footer section -->
   </body>
 </html>

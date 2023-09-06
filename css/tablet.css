@@ -1,0 +1,113 @@
+/* //////////////////////////////////// */
+/* Navbar  */
+.nav__ele-container {
+  padding: 0 3rem;
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header__list-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: -3rem;
+}
+.header__list-ele a {
+  font-size: 2rem;
+}
+
+.header__img-container {
+  padding: 10rem 6rem 0 0;
+}
+
+.header__img {
+  height: 25rem;
+}
+
+/* //////////////////////////////////// */
+/* Main section header  */
+.main__header-h1 {
+  width: 40%;
+  margin: 4rem auto;
+  font-size: 2.2rem;
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  row-gap: 0;
+}
+
+.main__header-p {
+  width: 70%;
+}
+
+.article {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* //////////////////////////////////// */
+/* Revview article */
+.review__container {
+  height: 30rem;
+}
+
+/* //////////////////////////////////// */
+/* Price article */
+.price {
+  width: 70%;
+  display: grid;
+  grid-template-areas:
+    'grid-h grid-h grid-h'
+    'grid-a grid-b grid-c';
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.price__header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.price__single-table {
+  width: 105%;
+}
+
+.tablet--z-index {
+  margin: 2rem 0;
+  z-index: 15;
+}
+
+/* //////////////////////////////////// */
+/* Apps section */
+.app_h1 {
+  width: 90%;
+  text-align: start;
+}
+
+/* //////////////////////////////////// */
+/* Footer section */
+.footer {
+  display: grid;
+  grid-template-areas:
+    'logo services'
+    'links downloads'
+    'footer footer';
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer__p {
+  width: 70%;
+}
+
+.footer__header,
+.footer__services {
+  margin-left: 5rem;
+}

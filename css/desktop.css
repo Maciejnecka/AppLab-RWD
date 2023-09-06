@@ -1,0 +1,199 @@
+:root {
+  /* Desktop max width */
+  --max-width: 1500px;
+}
+
+/* //////////////////////////////////////////// */
+/* Navbar  */
+.btn--desktop {
+  display: flex;
+  visibility: visible;
+  align-items: center;
+  justify-content: center;
+  background-color: #42b3fa;
+}
+
+.nav__ele-container {
+  background-color: transparent;
+}
+
+.nav__hamburger {
+  display: none;
+  visibility: hidden;
+}
+
+.header__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  margin-top: -5rem;
+  padding-bottom: 9rem;
+}
+
+/* //////////////////////////////////////////// */
+/* Header  */
+.nav--desktop {
+  display: none;
+  visibility: hidden;
+}
+
+.nav--global {
+  display: block;
+  visibility: visible;
+}
+
+.nav__logo {
+  margin: 0;
+  padding-right: 12%;
+  padding-left: 2rem;
+}
+
+.nav__ele-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__links-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: -4rem;
+}
+
+.header__list-ele a {
+  font-size: 1rem;
+}
+
+.links--icon {
+  padding: 0;
+}
+
+.header__list-ele:hover {
+  border-bottom: transparent;
+  padding-left: 0;
+  padding-top: 0.5rem;
+}
+
+/* ///////////////////////////////////////////// */
+/* Main section header  */
+.main__header-h1 {
+  max-width: var(--max-width);
+  width: 25%;
+  font-size: 2.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+}
+
+.main__container {
+  max-width: var(--max-width);
+}
+
+.main__header-p {
+  width: 40%;
+  padding: 0 -2rem;
+}
+.main__ele-container {
+  max-width: var(--max-width);
+}
+
+/* ///////////////////////////////////////////// */
+/* Article section */
+.article {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.article__h1 {
+  font-size: 2.4rem;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.article__p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn--blue {
+  margin: 2rem 4rem;
+  width: 13rem;
+}
+
+.article__down-container {
+  margin-left: 5rem;
+}
+
+/* ///////////////////////////////////////////// */
+/* Revview article */
+.review__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* ///////////////////////////////////////////// */
+/* Price article */
+.price {
+  max-width: var(--max-width);
+  padding: 0 5rem;
+}
+
+/* ///////////////////////////////////////////// */
+/* Apps section */
+.app {
+  max-width: var(--max-width);
+}
+.app__container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app__img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.app_h1 {
+  width: 50%;
+  text-align: left;
+  font-size: 2.8rem;
+  margin: 0;
+}
+.app__img-single {
+  height: 4rem;
+  margin: 1rem;
+}
+
+/* ///////////////////////////////////////////// */
+/* Footer section */
+.footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    'logo services links downloads'
+    'footer footer footer footer';
+}
+.footer__header,
+.footer__services {
+  margin-left: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.footer__logo {
+  padding-top: 1.25rem;
+}
+
+.footer__p {
+  margin: 2rem 0;
+}
+.footer__bottom-p {
+  font-size: 1rem;
+}
