@@ -136,14 +136,13 @@ input {
 .header__container {
   background-image: url(../images/banner/banner.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
 }
 
 .header__list-container {
-  width: 95%;
-  margin: 0 auto;
-  padding-top: 2rem;
+  margin: 0 1rem;
+  padding: 3rem 0;
   color: var(--main-white);
   letter-spacing: 0.1rem;
 }

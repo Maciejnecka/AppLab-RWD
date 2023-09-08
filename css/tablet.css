@@ -4,25 +4,34 @@
   padding: 0 3rem;
 }
 
-.header__container {
+.header__items-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 0 6rem;
 }
 
 .header__list-container {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-right: -3rem;
+  margin-top: 2rem;
+  position: relative;
 }
+
+.btn--header {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+}
+
 .header__list-ele a {
   font-size: 2rem;
 }
 
 .header__img-container {
-  padding: 10rem 6rem 0 0;
+  padding: 10rem 0 0 0;
 }
 
 .header__img {
@@ -105,9 +114,4 @@
 
 .footer__p {
   width: 70%;
-}
-
-.footer__header,
-.footer__services {
-  margin-left: 5rem;
 }
