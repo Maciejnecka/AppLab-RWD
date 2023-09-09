@@ -81,7 +81,7 @@ input {
   margin-top: 2rem;
   color: var(--main-white);
 }
-.nav--global {
+.nav__logo--global {
   display: none;
   visibility: hidden;
 }
@@ -97,6 +97,7 @@ input {
   flex-direction: column;
   background-color: rgb(44, 44, 44, 0.9);
   transition: all 0.3s ease-in;
+  z-index: 999;
 }
 
 #menu-switcher:checked + .header__links-container {
@@ -473,6 +474,7 @@ input {
 
 .footer__icons {
   display: flex;
+  margin: 2rem 0;
 }
 
 .footer__icon-wraper {

@@ -55,12 +55,12 @@
 
 /* //////////////////////////////////////////// */
 /* Header  */
-.nav--desktop {
+.nav__logo--desktop {
   display: none;
   visibility: hidden;
 }
 
-.nav--global {
+.nav__logo--global {
   display: block;
   visibility: visible;
 }
