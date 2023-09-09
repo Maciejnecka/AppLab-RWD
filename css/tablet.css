@@ -4,7 +4,7 @@
   padding: 0 3rem;
 }
 
-.header__items-container {
+.header__items-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 6rem;
@@ -40,20 +40,20 @@
 
 /* //////////////////////////////////// */
 /* Main section header  */
-.main__header-h1 {
+.main__header-title {
   width: 40%;
   margin: 4rem auto;
   font-size: 2.2rem;
 }
 
-.main__container {
+.main__box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 80%;
   row-gap: 0;
 }
 
-.main__header-p {
+.main__header-descrp {
   width: 70%;
 }
 
@@ -112,6 +112,6 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.footer__p {
+.footer__descrp {
   width: 70%;
 }

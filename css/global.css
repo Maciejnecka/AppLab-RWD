@@ -148,12 +148,12 @@ input {
   letter-spacing: 0.1rem;
 }
 
-.header__heading {
+.header__title {
   font-size: 1.6rem;
   color: var(--main-white);
 }
 
-.header__paragraph {
+.header__descrp {
   padding-top: 0.5rem;
   font-size: 1rem;
   color: var(--main-white);
@@ -180,13 +180,13 @@ input {
 }
 /* ////////////////////////////////////// */
 /* Main section header  */
-.main__container {
+.main__box {
   width: 90%;
   margin: 0 auto;
   color: var(--main-black);
 }
 
-.main__header-h1 {
+.main__header-title {
   font-size: 1.4rem;
   text-align: center;
   margin-top: 2rem;
@@ -236,7 +236,7 @@ input {
   width: 3rem;
 }
 
-.main__header-p {
+.main__header-descrp {
   text-align: center;
   font-size: 1.2rem;
   width: 40%;
@@ -254,14 +254,14 @@ input {
   color: var(--main-black);
 }
 
-.article__h1 {
+.article__title {
   font-size: 1.6rem;
   font-weight: 400;
   margin: 2rem auto;
-  width: 80%;
+  width: 90%;
 }
 
-.article__p {
+.article__descrp {
   font-size: 1rem;
   font-weight: 300;
   width: 90%;
@@ -269,7 +269,7 @@ input {
 }
 
 .btn--blue {
-  margin: 2rem 1rem;
+  margin: 2rem 5%;
   width: 13rem;
   background-color: #0181f5;
 }
@@ -296,7 +296,7 @@ input {
   padding: 4rem 0;
 }
 
-.review__h1 {
+.review__title {
   text-align: center;
   color: var(--main-white);
   font-size: 2.2rem;
@@ -304,7 +304,7 @@ input {
   margin: 3rem 0;
 }
 
-.review__p {
+.review__descrp {
   text-align: center;
   color: var(--main-white);
   font-size: 1rem;
@@ -343,13 +343,13 @@ input {
   grid-area: grid-h;
 }
 
-.price__h1 {
+.price__title {
   font-size: 2.4rem;
   font-weight: 300;
   margin: 2rem 0;
 }
 
-.price__p {
+.price__descrp {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -390,7 +390,7 @@ input {
   color: #2ddb9b;
 }
 
-.price__table-h1 {
+.price__table-title {
   color: var(--main-nav-color);
   font-weight: 600;
 }
@@ -467,7 +467,7 @@ input {
   margin: 0 auto;
 }
 
-.footer__p {
+.footer__descrp {
   font-size: 0.8rem;
   color: #c7c7c7;
 }
@@ -498,7 +498,7 @@ input {
   width: 90%;
   margin: 1.25rem auto;
 }
-.footer__services-h1 {
+.footer__services-title {
   margin: 1.5rem 0;
   font-size: 1.4rem;
 }
@@ -517,7 +517,7 @@ input {
   margin-top: 5rem;
 }
 
-.footer__bottom-p {
+.footer__bottom-descrp {
   width: 80%;
   color: #c7c7c7;
   font-size: 0.8rem;
