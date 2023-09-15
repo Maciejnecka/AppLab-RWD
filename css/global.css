@@ -153,7 +153,7 @@ input {
   color: var(--main-white);
 }
 
-.header__descrp {
+.header__description {
   padding-top: 0.5rem;
   font-size: 1rem;
   color: var(--main-white);
@@ -236,7 +236,7 @@ input {
   width: 3rem;
 }
 
-.main__header-descrp {
+.main__header-description {
   text-align: center;
   font-size: 1.2rem;
   width: 40%;
@@ -261,7 +261,7 @@ input {
   width: 90%;
 }
 
-.article__descrp {
+.article__description {
   font-size: 1rem;
   font-weight: 300;
   width: 90%;
@@ -304,7 +304,7 @@ input {
   margin: 3rem 0;
 }
 
-.review__descrp {
+.review__description {
   text-align: center;
   color: var(--main-white);
   font-size: 1rem;
@@ -349,7 +349,7 @@ input {
   margin: 2rem 0;
 }
 
-.price__descrp {
+.price__description {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -467,7 +467,7 @@ input {
   margin: 0 auto;
 }
 
-.footer__descrp {
+.footer__description {
   font-size: 0.8rem;
   color: #c7c7c7;
 }
@@ -517,7 +517,7 @@ input {
   margin-top: 5rem;
 }
 
-.footer__bottom-descrp {
+.footer__bottom-description {
   width: 80%;
   color: #c7c7c7;
   font-size: 0.8rem;

@@ -114,7 +114,7 @@
   max-width: var(--max-width);
 }
 
-.main__header-descrp {
+.main__header-description {
   width: 40%;
   padding: 0 -2rem;
 }
@@ -137,7 +137,7 @@
   padding-bottom: 2rem;
 }
 
-.article__descrp {
+.article__description {
   font-size: 1.2rem;
   font-weight: 300;
   width: 80%;
@@ -215,9 +215,9 @@
   padding-top: 1.25rem;
 }
 
-.footer__descrp {
+.footer__description {
   margin: 2rem 0;
 }
-.footer__bottom-descrp {
+.footer__bottom-description {
   font-size: 1rem;
 }

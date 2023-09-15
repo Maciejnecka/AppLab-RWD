@@ -53,7 +53,7 @@
   row-gap: 0;
 }
 
-.main__header-descrp {
+.main__header-description {
   width: 70%;
 }
 
@@ -112,6 +112,6 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.footer__descrp {
+.footer__description {
   width: 70%;
 }
