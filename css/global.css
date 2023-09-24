@@ -4,7 +4,6 @@ html {
     BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 .btn {
   border: none;
   height: 3rem;
@@ -285,9 +284,13 @@ input {
 }
 /* ////////////////////////////////////// */
 /* Revview article */
-.review__container {
+
+.review {
   background: linear-gradient(to top, #6ab5fcd5, #6ab5fcd5),
-    url(../images/banner/testmonial.png) no-repeat top center;
+    url(../images/banner/testmonial.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
   height: 35rem;
   width: 100%;
   display: flex;
@@ -309,13 +312,14 @@ input {
   color: var(--main-white);
   font-size: 1rem;
   font-weight: 500;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .review__stars-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 2rem;
   font-size: 1.8rem;
   color: #ffd35a;
@@ -451,6 +455,7 @@ input {
 /* ////////////////////////////////////// */
 /* Footer section */
 .footer {
+  width: 100%;
   background-color: #1f1f1f;
   height: min-content;
   color: var(--main-white);

@@ -1,6 +1,6 @@
 :root {
   /* Desktop max width */
-  --max-width: 1500px;
+  --max-width: 1600px;
 }
 
 /* //////////////////////////////////////////// */
@@ -157,9 +157,12 @@
 /* Revview article */
 .review__container {
   max-width: var(--max-width);
-  margin: 0 auto;
 }
 
+.review__description {
+  font-size: 1.2rem;
+  max-width: 60%;
+}
 /* ///////////////////////////////////////////// */
 /* Price article */
 .price {
@@ -169,14 +172,11 @@
 
 /* ///////////////////////////////////////////// */
 /* Apps section */
-.app {
-  max-width: var(--max-width);
-}
 .app__container {
-  width: 80%;
+  max-width: var(--max-width);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .app__img-container {
   display: flex;
@@ -197,7 +197,7 @@
 
 /* ///////////////////////////////////////////// */
 /* Footer section */
-.footer {
+.footer__container {
   max-width: var(--max-width);
   margin: 0 auto;
   grid-template-columns: repeat(4, 1fr);
@@ -205,6 +205,7 @@
     'logo services links downloads'
     'footer footer footer footer';
 }
+
 .footer__header,
 .footer__services {
   margin-left: 0;

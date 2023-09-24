@@ -69,6 +69,10 @@
   height: 30rem;
 }
 
+.review__description {
+  max-width: 70%;
+}
+
 /* //////////////////////////////////// */
 /* Price article */
 .price {
@@ -99,11 +103,12 @@
 .app_h1 {
   width: 90%;
   text-align: start;
+  font-size: 2.4rem;
 }
 
 /* //////////////////////////////////// */
 /* Footer section */
-.footer {
+.footer__container {
   display: grid;
   grid-template-areas:
     'logo services'
