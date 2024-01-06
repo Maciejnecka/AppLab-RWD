@@ -4,6 +4,20 @@ html {
     BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+:root {
+  /* Backgrounds */
+  --main-nav-color: #2c2c2c;
+  --btn-bg-green: #37ebed;
+
+  --btn-bg-hover: #1bb0b3b7;
+
+  /* Fonts colors */
+  --main-black: #3d3d3d;
+  --main-white: #f8f8f8;
+}
+/* ////////////////////////////////////// */
+/* Hamburger */
 .btn {
   border: none;
   height: 3rem;
@@ -14,19 +28,14 @@ html {
   letter-spacing: 0.1rem;
   border-radius: 0.5rem;
   background-color: var(--btn-bg-green);
+  transition: all 0.5s;
 }
 
-:root {
-  /* Backgrounds */
-  --main-nav-color: #2c2c2c;
-  --btn-bg-green: #37ebed;
-
-  /* Fonts colors */
-  --main-black: #3d3d3d;
-  --main-white: #f8f8f8;
+.btn:hover {
+  background-color: var(--btn-bg-hover);
+  transform: scale(1.1);
 }
-/* ////////////////////////////////////// */
-/* Hamburger */
+
 .nav__hamburger {
   width: 3rem;
   height: 2rem;
@@ -420,13 +429,18 @@ input {
   position: absolute;
   bottom: 5%;
   left: 50%;
-  transform: translate(-50%, 0);
   border: 0.1rem solid #85b7ff;
   background-color: #ffffff;
   color: #85b7ff;
   font-size: 0.8rem;
   width: 6rem;
   height: 2rem;
+  margin-left: -3rem;
+}
+
+.btn--price:hover {
+  background-color: #85b7ff;
+  color: #ffffff;
 }
 /* ////////////////////////////////////// */
 /* Apps section */
@@ -491,6 +505,13 @@ input {
   width: 3rem;
   border-radius: 50%;
   margin-right: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.footer__icon-wraper:hover {
+  background-color: #333333;
+  transform: scale(0.9);
 }
 
 .footer__icon {
@@ -511,6 +532,7 @@ input {
   font-size: 0.8rem;
   color: #c7c7c7;
   margin: 1.25rem 0;
+  cursor: pointer;
 }
 
 .footer__bottom {
