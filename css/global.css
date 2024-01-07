@@ -4,7 +4,6 @@ html {
     BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 :root {
   /* Backgrounds */
   --main-nav-color: #2c2c2c;
@@ -138,6 +137,53 @@ input {
   height: 1.2rem;
   filter: invert(96%) sepia(8%) saturate(199%) hue-rotate(240deg)
     brightness(115%) contrast(95%);
+}
+
+.header__list-ele--dropdown {
+  position: relative;
+}
+
+.header__list-ele:hover > .header__dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 500%;
+  left: 0;
+  width: 125%;
+  z-index: 999;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.header__list-ele--dropdown > .header__dropdown {
+  display: none;
+  border-bottom: 0.2rem solid transparent;
+}
+
+.header__dropdown > .header__dropdown-link {
+  white-space: nowrap;
+  padding: 0.1rem 0;
+  transition: all 0.3s ease-in;
+  border-bottom: 0.2rem solid transparent;
+}
+
+.header__dropdown-link {
+  transition: all 0.5s;
+}
+
+.header__dropdown-link:hover {
+  border-bottom: 0.2rem solid var(--main-white);
+  padding-left: 2rem;
+}
+
+.header__dropdown > .header__dropdown-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--main-white);
+  letter-spacing: 0.2rem;
+  padding: 0.5rem 1rem;
 }
 
 /* ////////////////////////////////////// */
