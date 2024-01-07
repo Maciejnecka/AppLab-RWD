@@ -143,18 +143,6 @@ input {
   position: relative;
 }
 
-.header__list-ele:hover > .header__dropdown {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 500%;
-  left: 0;
-  width: 125%;
-  z-index: 999;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  border-radius: 0.5rem;
-}
-
 .header__list-ele--dropdown > .header__dropdown {
   display: none;
   border-bottom: 0.2rem solid transparent;
