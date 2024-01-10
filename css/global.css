@@ -610,3 +610,7 @@ input {
 .footer--grid {
   grid-area: footer;
 }
+.header__dropdown,
+.links--icon {
+  display: none;
+}
