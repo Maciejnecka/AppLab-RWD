@@ -1,12 +1,15 @@
 # HTML & CSS: Responsive (RWD)
 ## AppLab Website
 
-Welcome to the AppLab website repository! Explore the source code for my modern and responsive template designed to showcase and promote mobile applications. The website features various sections, including a header, main features, pricing, customer reviews, and more. The primary goal of this project was to utilize only HTML and CSS to create a responsive design.
+A modern, responsive website template. It includes various
+sections such as a navigation menu, header, main features, pricing,
+and customer reviews. The primary goal of this project was to use
+only HTML and CSS to create a responsive design.
 
 ---
 
 
-See the live version of [AppLab 🌐](https://maciejnecka.github.io/AppLab-RWD/)
+See the live version: [AppLab](https://maciejnecka.github.io/AppLab-RWD/)🌐
 ## Desktop view
 <div align="center">
   <img src="./assets/AppLab-Desktop.png" alt="AppLab Desktop view">
